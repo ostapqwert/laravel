@@ -15,16 +15,16 @@
 //    return view('welcome');
 //});
 
-Route::get('/test', function () {
-    $user = \App\User::find(1);
-
-    $posts = $user->posts;
-
-    foreach($posts as $post){
-        echo $post->id.'<br>';
-        echo $post->body.'<br>';
-    }
-});
+//Route::get('/test', function () {
+//    $user = \App\User::find(1);
+//
+//    $posts = $user->posts;
+//
+//    foreach($posts as $post){
+//        echo $post->id.'<br>';
+//        echo $post->body.'<br>';
+//    }
+//});
 
 
 Auth::routes();
